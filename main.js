@@ -85,7 +85,6 @@ stopTilt(watchBtn);
 
 
 //Alert for Forms
-
 const signIn = document.getElementById('signIn');
 const signInBtn = document.querySelector('.signIn');
 
@@ -94,13 +93,12 @@ const signInBox = (trigger, event) => {
         alert('Visit the Forms page of my portfolio to view all forms');
     })
 };
-
 signInBox(signIn, 'click');
 signInBox(signInBtn, 'click');
 
 
 
-//Toggle function
+
 const toggle = (trigger, event, item, addClass) => {
     trigger.addEventListener(event, () => {
         item.classList.toggle(addClass);
